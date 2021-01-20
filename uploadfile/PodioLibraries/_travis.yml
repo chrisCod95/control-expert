@@ -1,0 +1,12 @@
+sudo: false
+
+language: php
+
+php:
+  - "5.5"
+  - "5.4"
+
+script: phpunit --bootstrap PodioAPI.php tests
+
+notifications:
+  email: false
